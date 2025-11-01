@@ -1,0 +1,23 @@
+site_name: લગ્ન ગીતો
+site_author: Paresh Adhia
+theme:
+  name: material
+  logo: assets/wedding.webp
+  features:
+    - navigation.tabs
+    - navigation.tracking
+    - navigation.indexes
+    - navigation.footer
+
+copyright: Copyright &copy; 2025 Dipti Adhia
+
+extra:
+  generator: false
+
+plugins:
+  - search
+  - awesome-nav
+
+markdown_extensions:
+  - toc:
+      permalink: True
